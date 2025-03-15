@@ -7,7 +7,7 @@
 
 Установка и настройка
 1. Установка зависимостей
-зависимости устанавливаем из файла requirements.txt (pip install < requirements.txt)
+зависимости устанавливаем из файла requirements.txt (pip install -r requirements.txt)
 2. Подключение к базе данных
 Создаем БД прописываем соединения с ней в файле .env
 запускаем скрипт init_db.py
@@ -48,4 +48,4 @@ translation — перевод слова (Text).
 user_id — идентификатор пользователя (BigInt, внешний ключ на users).
 word_id — идентификатор слова (Int, внешний ключ на words).
 
-![screenshot](botimg.jpg)
+![screenshot](/botimg.jpg)
