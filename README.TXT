@@ -47,3 +47,5 @@ translation — перевод слова (Text).
 Таблица user_words
 user_id — идентификатор пользователя (BigInt, внешний ключ на users).
 word_id — идентификатор слова (Int, внешний ключ на words).
+
+![screenshot](botimg.jpg)
